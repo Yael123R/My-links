@@ -1,0 +1,64 @@
+/* =============================================
+   MYLINKS - ESTILOS BASE
+   En las próximas clases construirás encima
+   de estos estilos para mejorar el diseño.
+   ============================================= */
+
+/* --- ESTILOS GLOBALES --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f13;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- TARJETA PRINCIPAL --- */
+.card {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* --- FOTO DE PERFIL --- */
+.avatar {
+  border-radius: 50%;
+}
+
+/* --- NOMBRE --- */
+.name {
+  font-size: 28px;
+  margin-top: 16px;
+}
+
+/* --- BIO --- */
+.bio {
+  font-size: 15px;
+  color: #a0a0b0;
+  margin-top: 8px;
+}
+
+/* --- CONTENEDOR DE ENLACES --- */
+.links {
+  margin-top: 24px;
+}
+
+/* --- CADA ENLACE --- */
+.link {
+  display: block;
+  padding: 14px;
+  margin-top: 12px;
+  border: 1px solid #2a2a38;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
