@@ -11,6 +11,10 @@ body {
   line-height: 1.6;
   background-color: #191D32;
   color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* --- TARJETA PRINCIPAL --- */
@@ -20,7 +24,6 @@ body {
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
